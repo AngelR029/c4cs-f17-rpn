@@ -1,0 +1,4 @@
+operator
+readline
+termcolor
+colorama
