@@ -18,3 +18,6 @@ class TestBasics(unittest.TestCase):
     def test_exponentiation(self):
         result = rpn.calculate("2 3 ^")
         self.assertEqual(8, result)
+    def test_compound(self)
+        result = rpn.calculate("90 -1 - 200 + 2 ^ 8 * 4 /")
+        self.assertEqual(169362, result)
